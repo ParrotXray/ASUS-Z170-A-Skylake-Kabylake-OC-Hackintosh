@@ -23,7 +23,7 @@
 
 | ![alt text](Mac.png) |
 |------------|
-| <a href="https://www.apple.com/tw/macos/macos-ventura-preview/"><img src="https://i.pcmag.com/imagery/reviews/04iuiyBZ61YPzdVS4GfRYKM-29.fit_scale.size_760x427.v1666629922.png" height="32px"/>macOS Ventura 13 |
+| <a href="https://www.apple.com/tw/macos/macos-ventura-preview/"><img src="https://i.pcmag.com/imagery/reviews/04iuiyBZ61YPzdVS4GfRYKM-29.fit_scale.size_760x427.v1666629922.png" height="32px"/>macOS Ventura 13.0.1 |
 | <a href="https://github.com/acidanthera/OpenCorePkg/releases/tag/0.8.7"><img src="https://raw.githubusercontent.com/acidanthera/OpenCorePkg/master/Docs/Logos/LogoApprox.svg" height="34px"/>Opencore 0.8.7 |
 | <a href="https://dortania.github.io/OpenCore-Install-Guide/extras/smbios-support.html"><img src="https://aux.iconspalace.com/uploads/imac-icon-256.png" height="30px"/>iMac 19.1 |
 
@@ -44,15 +44,28 @@
 - [x] Apple Services
 
 ## 🛠️OC DevicePropertises setting
-
-| Use iGPU+dGPU hardware acceleration |  Use iGPU(DVI)  |  Audio
+#### Use iGPU+dGPU hardware acceleration
+`PciRoot(0x0)/Pci(0x2,0x0)`
+| key |  Data Type  |  Value
 :-------------------------:|:-------------------------:|:-------------------------:
-PciRoot(0x0)/Pci(0x2,0x0)|PciRoot(0x0)/Pci(0x2,0x0)|PciRoot(0x0)/Pci(0x1B,0x0)
-AAPL,ig-platform-id:04001204(DATA)|AAPL,ig-platform-id:0300220D(DATA)|layout-id:05000000(DATA)
-device-id:12040000(DATA)|device-id:12040000(DATA)|-
-model:Intel HD Graphics 4600(STRING)|framebuffer-fbmem:00009000(DATA)|-
--|framebuffer-stolenmem:00003001(DATA)|-
--|model:Intel HD Graphics 530(STRING)|-
+AAPL,ig-platform-id|Data|03001259
+device-id|DATA|12590000
+model|String|Intel HD Graphics 530 or 630
+
+#### Use iGPU
+`PciRoot(0x0)/Pci(0x2,0x0)`
+| key |  Data Type  |  Value
+:-------------------------:|:-------------------------:|:-------------------------:
+AAPL,ig-platform-id|Data|00001259
+device-id|DATA|16590000
+model|String|Intel HD Graphics 530 or 630
+#### Audio
+`PciRoot(0x0)/Pci(0x1F,0x3)`
+| key |  Data Type  |  Value
+:-------------------------:|:-------------------------:|:-------------------------:
+layout-id|Number|3
+
+notice:Skylake igpu is painted in Ventura to counterfeit kabylake igpu and must be in `NVRAM > 7C436110-AB2A-4BBB-A880-FE41995C9F82 > boot-args > Add -disablegfxfirmware lilucpu=9 -igfxsklaskbl`
 
 ## 🛠️Setting BIOS
 
