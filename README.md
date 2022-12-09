@@ -27,7 +27,7 @@
 | <a href="https://github.com/acidanthera/OpenCorePkg/releases/tag/0.8.7"><img src="https://raw.githubusercontent.com/acidanthera/OpenCorePkg/master/Docs/Logos/LogoApprox.svg" height="34px"/>Opencore 0.8.7 |
 | <a href="https://dortania.github.io/OpenCore-Install-Guide/extras/smbios-support.html"><img src="https://aux.iconspalace.com/uploads/imac-icon-256.png" height="30px"/>iMac 19.1 |
 
-- <a href="https://github.com/ParrotXray/ASUS-Z170-A-Skylake-kabylake-OC-Hackintosh/releases/tag/v0.8.7"><img src="https://aux.iconspalace.com/uploads/downloads-folder-icon-256.png" height="32px">Click me to download EFI file
+- <a href="https://github.com/ParrotXray/ASUS-Z170-A-Skylake-Kabylake-OC-Hackintosh/releases/tag/v0.8.7"><img src="https://aux.iconspalace.com/uploads/downloads-folder-icon-256.png" height="32px">Click me to download EFI file
 
 
 ## 💡Device status
