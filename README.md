@@ -65,7 +65,7 @@ model|String|Intel HD Graphics 530 or 630
 :-------------------------:|:-------------------------:|:-------------------------:
 layout-id|Number|3
 
-notice:Skylake igpu is painted in Ventura to counterfeit kabylake igpu and must be in `NVRAM > 7C436110-AB2A-4BBB-A880-FE41995C9F82 > boot-args > Add -disablegfxfirmware lilucpu=9 -igfxsklaskbl`
+notice:Skylake igpu is painted in Ventura to counterfeit kabylake igpu and must be in `NVRAM > 7C436110-AB2A-4BBB-A880-FE41995C9F82 > boot-args > Add` **`-disablegfxfirmware lilucpu=9 -igfxsklaskbl`**
 
 ## 🛠️Setting BIOS
 
