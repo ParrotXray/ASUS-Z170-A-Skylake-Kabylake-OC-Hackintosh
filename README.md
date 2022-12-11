@@ -1,4 +1,4 @@
-# <img src=https://cdn-icons-png.flaticon.com/512/2/2235.png height="50px">ASUS-Z170-A-Skylake-kabylake-OC-Hackintosh
+# <img src=https://cdn-icons-png.flaticon.com/512/2/2235.png height="50px">ASUS-Z170-A-Skylake-Kabylake-OC-Hackintosh
 
 ## 🖥️Device
 
