@@ -50,7 +50,7 @@
 :-------------------------:|:-------------------------:|:-------------------------:
 AAPL,ig-platform-id|Data|03001259
 device-id|DATA|12590000
-model|String|Intel HD Graphics 530 or 630
+model|String|Intel HD Graphics 630
 
 #### Use iGPU
 `PciRoot(0x0)/Pci(0x2,0x0)`
@@ -58,7 +58,7 @@ model|String|Intel HD Graphics 530 or 630
 :-------------------------:|:-------------------------:|:-------------------------:
 AAPL,ig-platform-id|Data|00001259
 device-id|DATA|16590000
-model|String|Intel HD Graphics 530 or 630
+model|String|Intel HD Graphics 630
 #### Audio
 `PciRoot(0x0)/Pci(0x1F,0x3)`
 | key |  Data Type  |  Value
