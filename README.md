@@ -9,6 +9,7 @@
 | dGPU | AMD Radeon RX580 |
 | iGPU-Skylake | Intel® HD Graphics 530 |
 | iGPU-Kabylake | Intel® HD Graphics 630 |
+| Hard-drive | NVMe SSD CT1000P2SSD8 |
 | RAM | DDR4 2666MHz 16GB |
 | Audio | Realtek ALC892 |
 | WIFI／Bluetooth | FV-T919(BCM94360cd) |
